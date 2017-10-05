@@ -87,4 +87,11 @@ th { text-align: center; }
   border-right: 0px solid #9dc0ce;
 }
  
+table { width:100%; border-left:0px solid grey; }
+
+.buttonas {
+	margin-top:-19px;
+	margin-left:75px;
+}
+
 }

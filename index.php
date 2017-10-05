@@ -52,7 +52,7 @@
                 <li>Auto/moto</li>
               </ul>
             </div>
-            <div class="col-12 col-md-3 submenu">
+            <div class="col-6 col-md-3 submenu">
               <ul>
                 <li>Auto/moto</li>
                 <li>Auto/moto</li>
@@ -61,7 +61,7 @@
                 <li>Auto/moto</li>
               </ul>
             </div>
-            <div class="col-12 col-md-3 submenu">
+            <div class="col-6 col-md-3 submenu">
               <ul>
                 <li>Auto/moto</li>
                 <li>Auto/moto</li>
@@ -81,19 +81,19 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-2">
+      <div class="col-6 col-sm-2">
         <img src="images/1.png">
       </div>
-      <div class="col-2">
+      <div class="col-6 col-sm-2">
         <img src="images/1.png">
       </div>
-      <div class="col-4 text-center">
+      <div class="col-12 col-sm-4 text-center">
         <p>Profesionalus hostingas:</p>
       </div>
-      <div class="col-2">
+      <div class="col-6 col-sm-2">
         <img src="images/1.png">
       </div>
-      <div class="col-2">
+      <div class="col-6 col-sm-2">
         <img src="images/1.png">
       </div>
     </div>
@@ -101,12 +101,12 @@
 
   <div class="container border">
     <div class="row">
-      <div class="col-4 ">
+      <div class="col-12 col-sm-4">
         <div class="row">
           <div class="col sidebarone">
             <h5>Norite suskaičiuoti savo svetainės lankytojus?</h5>
           </div>
-          <div class="col-4 buttonas">
+          <div class="col-12 col-sm-4 buttonas">
             <img src="images/signup.gif">
           </div>
         </div>
@@ -114,7 +114,7 @@
           <div class="col sidebarone">
             <h5>Norite suskaičiuoti savo svetainės lankytojus?</h5>
           </div>
-          <div class="col-4 buttonas">
+          <div class="col-12 col-sm-2 buttonas">
             <img src="images/signup.gif">
           </div>
         </div>
@@ -122,7 +122,7 @@
           <div class="col sidebarone">
             <h5>Norite suskaičiuoti savo svetainės lankytojus?</h5>
           </div>
-          <div class="col-4 buttonas">
+          <div class="col-12 col-sm-4 buttonas">
             <img src="images/signup.gif">
           </div>
         </div>
@@ -134,7 +134,7 @@
 
 
       </div>
-      <div class="col-8 paddingaslenteles">
+      <div class="col-12 paddingaslenteles">
 
         <table>
           <tr>
