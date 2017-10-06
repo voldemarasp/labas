@@ -5,13 +5,26 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="FA/css/font-awesome.min.css">
   <title>HEY</title>
+
 </head>
 <body>
+  <script>
+function myFunction() {
+
+if (document.getElementById("mobilemenuli").style.display == 'block') { 
+document.getElementById("mobilemenuli").style.display = "none";
+} else {
+document.getElementById("mobilemenuli").style.display = "block";
+}
+
+}
+  </script>
   <div class="container-fluid juosta">
     <div class="container">
       <div class="row">
-        <div class="col menu">
-          <ul>
+        <div id="menu" class="col">
+          <a class="mobilemenu" href="#" onclick="myFunction();"><img src="images/menu.png" height="30"></a>
+          <ul id="mobilemenuli">
             <li>Pradzia</li>
             <li>Nariams</li>
             <li>Registracija</li>
@@ -33,275 +46,275 @@
 
         </div>
 
-          <div class="row">
-            <div class="col-6 col-md-3 submenu">
-              <ul>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-              </ul>
-            </div>
-            <div class="col-6 col-md-3 submenu">
-              <ul>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-              </ul>
-            </div>
-            <div class="col-6 col-md-3 submenu">
-              <ul>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-              </ul>
-            </div>
-            <div class="col-6 col-md-3 submenu">
-              <ul>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-                <li>Auto/moto</li>
-              </ul>
-            </div>
+        <div class="row">
+          <div class="col-6 col-md-3 submenu">
+            <ul>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+            </ul>
           </div>
-
+          <div class="col-6 col-md-3 submenu">
+            <ul>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 submenu">
+            <ul>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 submenu">
+            <ul>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+              <li>Auto/moto</li>
+            </ul>
+          </div>
         </div>
 
       </div>
-      <hr>
+
     </div>
+    <hr>
   </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-6 col-sm-2">
-        <img src="images/1.png">
-      </div>
-      <div class="col-6 col-sm-2">
-        <img src="images/1.png">
-      </div>
-      <div class="col-12 col-sm-4 text-center">
-        <p>Profesionalus hostingas:</p>
-      </div>
-      <div class="col-6 col-sm-2">
-        <img src="images/1.png">
-      </div>
-      <div class="col-6 col-sm-2">
-        <img src="images/1.png">
-      </div>
-    </div>
-  </div>
-
-  <div class="container border">
-    <div class="row">
-      <div class="col-12 col-sm-4">
-        <div class="row">
-          <div class="col sidebarone">
-            <h5>Norite suskaičiuoti savo svetainės lankytojus?</h5>
-          </div>
-          <div class="col-12 col-sm-4 buttonas">
-            <img src="images/signup.gif">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col sidebarone">
-            <h5>Norite suskaičiuoti savo svetainės lankytojus?</h5>
-          </div>
-          <div class="col-12 col-sm-2 buttonas">
-            <img src="images/signup.gif">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col sidebarone">
-            <h5>Norite suskaičiuoti savo svetainės lankytojus?</h5>
-          </div>
-          <div class="col-12 col-sm-4 buttonas">
-            <img src="images/signup.gif">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            Plačiau apie lankomumo statistiką...
-          </div>
-        </div>
-
-
-      </div>
-      <div class="col-12 paddingaslenteles">
-
-        <table>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-          <tr>
-            <th>1.</th>
-            <th>Mokslo ir technologijų pasaulis</th>
-            <th>9053</th>
-          </tr>
-        </table>
-
-      </div>
-    </div>
-
-  </div>
+</div>
 
 <div class="container">
-<div class="row">
-
-<div class="col text-center bottomcounter">
-<a target="_blank" href="http://www.hey.lt/details.php?id=t564t54t564"><img width="88" height="31" border="0" src="http://www.hey.lt/count.php?id=t564t54t564" alt="Hey.lt - Nemokamas lankytojų skaitliukas"></a>
+  <div class="row">
+    <div class="col-6 col-sm-2">
+      <img src="images/1.png" width="100%">
+    </div>
+    <div class="col-6 col-sm-2">
+      <img src="images/1.png" width="100%">
+    </div>
+    <div class="col-12 col-sm-4 text-center">
+      <p>Profesionalus hostingas:</p>
+    </div>
+    <div class="col-6 col-sm-2">
+      <img src="images/1.png" width="100%">
+    </div>
+    <div class="col-6 col-sm-2">
+      <img src="images/1.png" width="100%">
+    </div>
+  </div>
 </div>
 
+<div class="container border">
+  <div class="row">
+    <div class="col-12 col-sm-4">
+      <div class="row">
+        <div class="col sidebarone">
+          <h5>Norite suskaičiuoti savo svetainės lankytojus?</h5>
+        </div>
+        <div class="col-12 col-sm-4 buttonas">
+          <img src="images/signup.gif">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col sidebarone">
+          <h5>Norite suskaičiuoti savo svetainės lankytojus?</h5>
+        </div>
+        <div class="col-12 col-sm-2 buttonas">
+          <img src="images/signup.gif">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col sidebarone">
+          <h5>Norite suskaičiuoti savo svetainės lankytojus?</h5>
+        </div>
+        <div class="col-12 col-sm-4 buttonas">
+          <img src="images/signup.gif">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          Plačiau apie lankomumo statistiką...
+        </div>
+      </div>
+
+
+    </div>
+    <div class="col-12 col-sm-8 paddingaslenteles">
+
+      <table>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+        <tr>
+          <th>1.</th>
+          <th>Mokslo ir technologijų pasaulis</th>
+          <th>9053</th>
+        </tr>
+      </table>
+
+    </div>
+  </div>
+
 </div>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col text-center bottomcounter">
+      <a target="_blank" href="http://www.hey.lt/details.php?id=t564t54t564"><img width="88" height="31" border="0" src="http://www.hey.lt/count.php?id=t564t54t564" alt="Hey.lt - Nemokamas lankytojų skaitliukas"></a>
+    </div>
+
+  </div>
 </div>
 </body>
 </html>
