@@ -20,7 +20,7 @@ document.getElementById("mobilemenuli").style.display = "block";
 }
   </script>
   <div class="container-fluid juosta">
-    <div class="container">
+    <div class="container sticky">
       <div class="row">
         <div id="menu" class="col">
           <a class="mobilemenu" href="#" onclick="myFunction();"><img src="images/menu.png" height="30"></a>
