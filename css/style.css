@@ -90,7 +90,11 @@ th { text-align: center; }
 
 .bottomcounter { padding-top: 50px; padding-bottom: 50px;}
 
-#mobilemenuli { display: block; }
+#mobilemenuli { 
+	display: block;
+	-webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
+    transition: width 3s;
+}
 
 @media only screen and (max-width: 500px) {
 
@@ -107,7 +111,11 @@ th { text-align: center; }
 		margin-left:35px;
 	}
 
-	#mobilemenuli { display: none; }
+	#mobilemenuli { 
+	display: none; 
+	-webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
+    transition: width 3s;
+}
 
 }
 
@@ -131,6 +139,10 @@ th { text-align: center; }
 		display: block;
 	}
 
-	#mobilemenuli { display: none; }
+	#mobilemenuli { 
+	display: none; 
+	-webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
+    transition: width 3s;
+}
 
 }
