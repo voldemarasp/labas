@@ -116,6 +116,8 @@ th { text-align: center; }
 	display: block;
 	-webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
     transition: width 3s;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -135,8 +137,8 @@ th { text-align: center; }
 
 	#mobilemenuli { 
 	display: none; 
-	-webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
-    transition: width 3s;
+	-webkit-transition: 3s; /* For Safari 3.1 to 6.0 */
+    transition: 3s;
 }
 
 }
@@ -163,8 +165,8 @@ th { text-align: center; }
 
 	#mobilemenuli { 
 	display: none; 
-	-webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
-    transition: width 3s;
+	-webkit-transition: 3s; /* For Safari 3.1 to 6.0 */
+    transition: 3s;
 }
 	.submenucont {
 	border-radius: 0px;
