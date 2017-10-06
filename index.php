@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="FA/css/font-awesome.min.css">
   <title>HEY</title>
-
 </head>
 <body>
   <script>
@@ -39,14 +39,14 @@ document.getElementById("mobilemenuli").style.display = "block";
 
   <div class="container-fluid">
     <div class="container">
-      <div class="row">
+      <div class="row logosubmenu">
         <div class="col-12 col-md-2 logo">
 
           <img class="img-fluid" src="images/logo.gif">
 
         </div>
 
-        <div class="row">
+        <div class="row submenucont">
           <div class="col-6 col-md-3 submenu">
             <ul>
               <li>Auto/moto</li>
