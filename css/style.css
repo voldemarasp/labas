@@ -35,6 +35,10 @@ ul li {
 	margin-bottom:0px;
 }
 
+.submenu {
+	margin-top:10px;
+}
+
 .logo img {
 	margin-left: auto;
 	margin-right: auto;
@@ -44,8 +48,8 @@ ul li {
 .submenu li:before {
 	content: "\f0a9"; /* FontAwesome Unicode */
 	font-family: FontAwesome;
-	margin-left: 10px; /* same as padding-left set on li */
-	width: 10px; /* same as padding-left set on li */
+	margin-left: 5px; /* same as padding-left set on li */
+	width: 5px; /* same as padding-left set on li */
 }
 
 .submenucont {
@@ -169,7 +173,7 @@ th { text-align: center; }
     transition: 3s;
 }
 	.submenucont {
-	border-radius: 0px;
+	border-radius: 10px;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
