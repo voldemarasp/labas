@@ -101,7 +101,7 @@ document.getElementById("mobilemenuli").style.display = "block";
       <img src="images/1.png" width="100%">
     </div>
     <div class="col-12 col-sm-4 text-center">
-      <p>Profesionalus hostingas:</p>
+      <p class="cooltext">Profesionalus hostingas:</p>
     </div>
     <div class="col-6 col-sm-2">
       <img src="images/1.png" width="100%">

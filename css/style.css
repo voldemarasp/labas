@@ -17,6 +17,14 @@ h6, h5, h4, h3, h2, h1 {
     font-family: 'Playfair Display', serif;
 }
 
+.cooltext {
+  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+
 .logosubmenu { margin-top: 30px; }
 
 .juosta {
